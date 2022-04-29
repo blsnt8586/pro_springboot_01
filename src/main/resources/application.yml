@@ -1,0 +1,32 @@
+person:
+  userName: zhangsan
+  # 单引号会将\n作为字符串输出，双引号会将\n作为换行输出
+  # 双引号不会转义，单引号会转义
+  boss: true
+  birth: 2019/12/9
+  age: 18
+#  interests: [篮球,足球]
+  interests:
+    - 篮球
+    - 足球
+  animal: [猫,狗]
+#  score: {english:80,math:90}
+  score:
+    english: 69
+    math: 90
+  salarys:
+    - 9999
+    - 8888
+  pet:
+    name: 小白
+    weight: 99
+  allPets:
+    sick:
+      - {name: 小黄,weight: 89}
+      - name: 小黑
+        weight: 77
+      - name: 小红
+        weight: 87
+    health:
+      - {name: 小花,weight: 59}
+      - {name: 小蓝,weight: 49}
